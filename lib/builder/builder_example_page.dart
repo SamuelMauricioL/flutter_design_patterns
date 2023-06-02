@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/builder/pizza.dart';
+import 'package:flutter_design_patterns/builder/pizza/builder/hawaiiana_pizza_builder.dart';
+import 'package:flutter_design_patterns/builder/pizza/builder/new_york_pizza_builder.dart';
+import 'package:flutter_design_patterns/builder/pizza/models/pizza.dart';
+import 'package:flutter_design_patterns/builder/pizza/builder/pizza_builder.dart';
+import 'package:flutter_design_patterns/builder/pizza/director/pizza_director.dart';
 
 class BuilderExamplePage extends StatefulWidget {
   const BuilderExamplePage({Key? key}) : super(key: key);
