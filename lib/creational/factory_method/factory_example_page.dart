@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/factory_method/shape.dart';
-import 'package:flutter_design_patterns/factory_method/utils.dart';
+import 'package:flutter_design_patterns/creational/factory_method/shape.dart';
+import 'package:flutter_design_patterns/creational/factory_method/utils.dart';
 
 /// global state data
 Shape currShape = NullShape();

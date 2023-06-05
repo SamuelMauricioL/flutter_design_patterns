@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/builder/builder_example_page.dart';
+import 'package:flutter_design_patterns/creational/builder/builder_example_page.dart';
 
 void main() {
   runApp(const MyApp());

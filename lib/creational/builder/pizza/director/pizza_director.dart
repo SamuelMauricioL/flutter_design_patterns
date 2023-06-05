@@ -1,5 +1,5 @@
-import 'package:flutter_design_patterns/builder/pizza/models/pizza.dart';
-import 'package:flutter_design_patterns/builder/pizza/builder/pizza_builder.dart';
+import 'package:flutter_design_patterns/creational/builder/pizza/models/pizza.dart';
+import 'package:flutter_design_patterns/creational/builder/pizza/builder/pizza_builder.dart';
 
 class PizzaDirector {
   late PizzaBuilder _pizzaBuilder;

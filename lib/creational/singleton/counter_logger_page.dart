@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/singleton/debug_logger.dart';
+import 'package:flutter_design_patterns/creational/singleton/debug_logger.dart';
 
 class CounterLoggerPage extends StatefulWidget {
   const CounterLoggerPage({Key? key}) : super(key: key);

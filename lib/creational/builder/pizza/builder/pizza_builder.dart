@@ -1,4 +1,4 @@
-import 'package:flutter_design_patterns/builder/pizza/models/pizza.dart';
+import 'package:flutter_design_patterns/creational/builder/pizza/models/pizza.dart';
 
 abstract class PizzaBuilder {
   late Pizza pizza;

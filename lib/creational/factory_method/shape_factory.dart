@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/factory_method/shape.dart';
+import 'package:flutter_design_patterns/creational/factory_method/shape.dart';
 
 enum ShapesEnum { rectangle, circle }
 
