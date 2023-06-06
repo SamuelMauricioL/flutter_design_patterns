@@ -1,8 +1,8 @@
 // ignore_for_file: implementation_imports
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_flutter/adapters/interface_chart_layer_adapter.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_flutter/datasources/contact_data_source.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_flutter/models/contacts_model.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_flutter/adapters/interface_chart_layer_adapter.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_flutter/datasources/contact_data_source.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_flutter/models/contacts_model.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 
 class ContactModelAdapter implements IChartLayerAdapter {

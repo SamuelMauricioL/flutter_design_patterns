@@ -1,8 +1,8 @@
 import 'dart:convert';
 
-import 'package:flutter_design_patterns/behavioral/adapter/in_dart/adapters/interface_contacts_adapter.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_dart/datasources/json_contacts_reader.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_dart/models/contacts_model.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_dart/adapters/interface_contacts_adapter.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_dart/datasources/json_contacts_reader.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_dart/models/contacts_model.dart';
 
 class JsonContactsAdapter implements IContactsAdapter {
   final JsonContactsReaderDS _reader = JsonContactsReaderDS();

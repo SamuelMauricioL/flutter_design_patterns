@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_flutter/adapters/contact_model_adapter.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_flutter/adapters/contact_model_adapter.dart';
 import 'package:mrx_charts/mrx_charts.dart';
 
 class AdapterFlutterExamplePage extends StatefulWidget {

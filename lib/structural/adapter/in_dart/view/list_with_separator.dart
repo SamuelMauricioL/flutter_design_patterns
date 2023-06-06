@@ -1,8 +1,8 @@
 // ignore_for_file: avoid_print, must_be_immutable
 
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_dart/adapters/json_contacts_adapter.dart';
-import 'package:flutter_design_patterns/behavioral/adapter/in_dart/models/contacts_model.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_dart/adapters/json_contacts_adapter.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_dart/models/contacts_model.dart';
 
 class LongListWithSeparator extends StatelessWidget {
   List<Contact> listOfItems = JsonContactsAdapter().getContacts();

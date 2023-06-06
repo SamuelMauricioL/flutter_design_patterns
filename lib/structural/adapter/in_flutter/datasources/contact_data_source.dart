@@ -1,4 +1,4 @@
-import 'package:flutter_design_patterns/behavioral/adapter/in_flutter/models/contacts_model.dart';
+import 'package:flutter_design_patterns/structural/adapter/in_flutter/models/contacts_model.dart';
 
 class ContactDataSource {
   List<Contact> getContacts() {
