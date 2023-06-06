@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/creational/builder/builder_example_page.dart';
+import 'package:flutter_design_patterns/behavioral/adapter/in_dart/adapter_dart_example_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const BuilderExamplePage(),
+      home: const AdapterDartExamplePage(),
     );
   }
 }
