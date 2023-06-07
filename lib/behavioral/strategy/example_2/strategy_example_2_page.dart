@@ -6,6 +6,7 @@ import 'package:flutter_design_patterns/behavioral/strategy/example_2/strategies
 import 'package:flutter_design_patterns/behavioral/strategy/example_2/strategies/calculator_strategy.dart';
 import 'package:flutter_design_patterns/behavioral/strategy/example_2/strategies/multiply_strategy.dart';
 import 'package:flutter_design_patterns/behavioral/strategy/example_2/strategies/subtract_strategy.dart';
+import 'package:flutter_design_patterns/behavioral/strategy/example_2/strategies/divide_strategy.dart';
 
 class StrategyExample2Page extends StatefulWidget {
   @override
@@ -77,6 +78,16 @@ class _StrategyExample2PageState extends State<StrategyExample2Page> {
               RadioListTile<CalculatorStrategy>(
                 title: const Text('Multiplicación'),
                 value: MultiplyStrategy(),
+                groupValue: _contexto.calculator,
+                onChanged: (value) {
+                  setState(() {
+                    _contexto.setCalculator(value!);
+                  });
+                },
+              ),
+              RadioListTile<CalculatorStrategy>(
+                title: const Text('División'),
+                value: DivideStrategy(),
                 groupValue: _contexto.calculator,
                 onChanged: (value) {
                   setState(() {
