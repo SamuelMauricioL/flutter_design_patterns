@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/behavioral/strategy/example_2/strategy_example_2_page.dart';
+import 'package:flutter_design_patterns/behavioral/observer/example_2/observer_example_2_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: StrategyExample2Page(),
+      home: const ObserverExample2Page(),
     );
   }
 }
