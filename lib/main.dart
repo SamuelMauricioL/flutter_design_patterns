@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_design_patterns/behavioral/observer/example_2/observer_example_2_page.dart';
+import 'package:flutter_design_patterns/behavioral/state/state_example_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const ObserverExample2Page(),
+      home: const StateExamplePage(),
     );
   }
 }
